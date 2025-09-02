@@ -79,19 +79,13 @@ header nav ul li {
 
 
 header img{
-    width: 100px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
 }
 
 video{
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+
 }
 
 /* Estilo do topo do site */
@@ -110,34 +104,79 @@ section .topo_do_site .flex {
     gap: 90px;
 }
 
-.topo_do_site h1{
+.txt_topo_site h1{
     color: #fff;
-    font-size: 35px;
+    font-size: 33px;
     line-height: 40px;
 }
 
-.topo_do_site h1 span{
+.txt_topo_site h1 span{
     color: #FF087F;
-    font-size: 45px;
+    font-size: 43px;
 }
 
 .topo_do_site .txt_topo_site p{
     color: #fff;
     margin: 40px 0;
+    /* position: absolute; */
+    
+     
 }
 
 .txt_topo_site{
-    width:75% ;
+    width:50% ;
     display: flex;
+    flex-direction: column;
+    display: inline-block;
+    /* position: relative; */
+    
     
 }
 
 .vd_topo_site{
-    width:25% ;
+    width:50% ;
     display: flex;
     justify-content: flex-end;
 }
 
-.vd_topo_site video{
-    width: 50%;
+
+
+.texto_sobre h1{
+    color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+    width: 40%;
+    text-align: right;
+    
 }
+
+.texto_sobre p {
+    text-align: right;
+}
+
+.texto_sobre h1 span{
+    color: #FF087F;
+    font-size: 43px;
+}
+
+.texto_sobre{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.img_sobre img{
+    width: 350px;
+    flex-direction:row;
+}
+
+.img_sobre {
+    width: 350px;
+}
+.sobre_mim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 4%;
+}
+
