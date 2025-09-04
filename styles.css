@@ -1,6 +1,6 @@
 /* Estilo geral */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background-color: black;
     height: 100vh;
     color: white;
@@ -17,10 +17,10 @@ body{
 
 .flex {
     display: flex;
-    
+
 }
 
- .bt_contato button {
+.bt_contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -32,35 +32,35 @@ body{
     transition: 2s;
 }
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
 
 /* Estilo do cabeçalho */
-header{
+header {
     padding: 40px 4%;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header a{
+header a {
     color: gray;
     text-decoration: none;
 }
 
-header a:hover{
+header a:hover {
     color: #fff;
     transform: scale(1.05);
     display: inline-block;
-  
+
 }
 
-header nav ul{
+header nav ul {
     list-style-type: none;
 }
 
@@ -72,29 +72,29 @@ header nav ul li {
 
 
 
- .bt_contato button:hover{
+.bt_contato button:hover {
     box-shadow: 0px 0px 8px #FF087F;
     transform: scale(1.05);
 }
 
 
-header img{
+header img {
     width: 150px;
     height: 150px;
 }
 
-video{
+video {
     width: 100%;
 
 }
 
 /* Estilo do topo do site */
 
-section .topo_do_site{
-  padding: 40px 4%;  
+section .topo_do_site {
+    padding: 40px 4%;
 }
 
-section .vd_topo_site{
+section .vd_topo_site {
     cursor: not-allowed;
 }
 
@@ -104,74 +104,75 @@ section .topo_do_site .flex {
     gap: 90px;
 }
 
-.txt_topo_site h1{
+.txt_topo_site h1 {
     color: #fff;
     font-size: 33px;
     line-height: 40px;
 }
 
-.txt_topo_site h1 span{
+.txt_topo_site h1 span {
     color: #FF087F;
     font-size: 43px;
 }
 
-.topo_do_site .txt_topo_site p{
+.topo_do_site .txt_topo_site p {
     color: #fff;
     margin: 40px 0;
     /* position: absolute; */
-    
-     
+
+
 }
 
-.txt_topo_site{
-    width:50% ;
+.txt_topo_site {
+    width: 50%;
     display: flex;
     flex-direction: column;
     display: inline-block;
     /* position: relative; */
-    
-    
+
+
 }
 
-.vd_topo_site{
-    width:50% ;
+.vd_topo_site {
+    width: 50%;
     display: flex;
     justify-content: flex-end;
 }
 
 
 
-.texto_sobre h1{
+.texto_sobre h1 {
     color: #fff;
     font-size: 33px;
     line-height: 40px;
     width: 40%;
     text-align: right;
-    
+
 }
 
 .texto_sobre p {
     text-align: right;
 }
 
-.texto_sobre h1 span{
+.texto_sobre h1 span {
     color: #FF087F;
     font-size: 43px;
 }
 
-.texto_sobre{
+.texto_sobre {
     width: 100%;
     padding-right: 20px;
 }
 
-.img_sobre img{
+.img_sobre img {
     width: 350px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 .img_sobre {
     width: 350px;
 }
+
 .sobre_mim {
     display: flex;
     align-items: center;
@@ -180,3 +181,93 @@ section .topo_do_site .flex {
     padding: 40px 4%;
 }
 
+.texto_sobre p {
+    text-align: justify;
+}
+
+.texto_sobre h1 {
+    text-align: left;
+}
+
+.div_especialidades h1 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 40px;
+
+}
+
+.div_especialidades h1 span {
+    color: #FF087F;
+    font-size: 43px;
+}
+
+.card_box {
+    width: 300px;
+    border-style: groove;
+    border-color: #FF087F;
+    border-radius: 10px;
+    padding: 20px 10px 20px 20px;
+    box-shadow: #FF087F;
+
+}
+
+.todos_cards {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.card_box h3 {
+    text-align: center;
+    
+}
+
+.card_box hr {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #FF087F;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+footer hr{
+    border-color: #FF087F;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.logo_footer img{
+    width: 200px;
+    height: 200px;
+   display: block;
+   margin:  0 auto;
+}
+
+footer p{
+    color: gray;
+    text-align: center;
+}
+
+footer span {
+    color: #FF087F;
+}
+
+.icons_contato  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+
+.icons_contato img {
+    margin: 10px;
+    margin-bottom: 55px;
+    cursor: pointer;
+}
